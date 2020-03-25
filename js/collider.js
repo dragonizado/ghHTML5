@@ -24,6 +24,7 @@ const collider = function (nota,buttom,flid){
         if (pos1.bottom >= pos2.top && pos1.bottom <= pos2.bottom){
             console.log('Dentro del area de colición');
             nota.classList.remove('animated')
+            nota.classList.add('hidden')
             buttom.classList.add('hitted')
             play_flare_animation(flid)
             // nota.remove()

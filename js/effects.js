@@ -14,6 +14,7 @@ setInterval(() => {
     let number = getRandomNumb(0, 5);
 
     console.log(number, nota);
+    nota[number].classList.remove('hidden')
     nota[number].classList.toggle('animated')
 }, 3000);
 
