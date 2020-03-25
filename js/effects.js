@@ -11,11 +11,11 @@ const play_flare_animation = function(id){
 
 setInterval(() => {
     let nota = document.getElementsByClassName('nota')
-    let number = getRandomNumb(0, 4);
+    let number = getRandomNumb(0, 5);
 
     console.log(number, nota);
     nota[number].classList.toggle('animated')
-}, 2000);
+}, 3000);
 
 
 function getRandomNumb(min, max) {

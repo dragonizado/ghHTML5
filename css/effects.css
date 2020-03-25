@@ -2,9 +2,8 @@
     position: absolute;
     width: 128px;
     height: 256px;
-    background-image: url('../resources/gh3/hitflamesanimation.png');
+    background-image: url('../resources/gh3/hitflamesanimation2.png');
     z-index:3;
-    opacity: .5;
 }
 
 .flare_efects.fgreen{
