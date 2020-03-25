@@ -1,0 +1,63 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	display: grid;
+	grid-template-rows: 100px 1fr 40px;
+	height: 100vh;
+
+}
+
+.bgpractica{
+	background-image: url(../resources/gh3/stages/practice.png);
+    background-size: cover;
+    background-position-y: -111px;
+}
+
+header{
+	background-color: yellow;
+}
+
+section{
+	background-color: blue;
+}
+
+footer{
+	background-color: red;
+}
+
+div.container{
+	margin-left: 7%;
+	margin-right: 7%;
+}
+
+.juego{
+	height: 100%;
+}
+
+.juego .juego-multiplicador{
+	background-color: green;
+	width: 20%;
+}
+
+.juego .juego-guitar{
+	/* background-color: grey; */
+	position: relative;
+	width: 59%;
+	height: 100%;
+
+}
+.juego .juego-rockometro{
+	background-color: green;
+	width: 20%;
+}
+
+div.juego div{
+	display: inline-block;
+}
+
+.juego-guitar>div{
+	display: block !important;
+}
