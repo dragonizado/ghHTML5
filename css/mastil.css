@@ -16,6 +16,14 @@
 	z-index: 1;
 }
 
+.matil-edges{
+	width: 100%;
+    height: 100%;
+    position: absolute;
+	background-image: url('../resources/gh3/side_bars.png');
+    background-size: 315px;
+}
+
 .juego-mastil>div.texture{
 	transform: rotateX(40deg);
     /* background: brown; */

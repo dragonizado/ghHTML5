@@ -25,7 +25,7 @@
 	animation-name: ngreen;
 	animation-duration: var(--base-game-tempo-song);
 	animation-timing-function: linear;
-	animation-iteration-count: infinite;
+	/* animation-iteration-count: infinite; */
 }
 
 .n-red{
@@ -40,7 +40,7 @@
 	animation-name: nred;
 	animation-duration: var(--base-game-tempo-song);
 	animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    /* animation-iteration-count: infinite; */
 }
 
 .n-yellow{
@@ -55,7 +55,7 @@
 	animation-name: nyellow;
 	animation-duration: var(--base-game-tempo-song);
 	animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    /* animation-iteration-count: infinite; */
 }
 
 .n-blue{
@@ -70,7 +70,7 @@
 	animation-name: nblue;
 	animation-duration: var(--base-game-tempo-song);
 	animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    /* animation-iteration-count: infinite; */
 }
 
 .n-orange{
@@ -85,5 +85,6 @@
 	animation-name: norange;
 	animation-duration: var(--base-game-tempo-song);
 	animation-timing-function: linear;
-    animation-iteration-count: infinite;
+	/* animation-fill-mode: both; */
+	animation-iteration-count: infinite;
 }

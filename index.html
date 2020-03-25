@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="./css/mastil.css"/>
 	<link rel="stylesheet" href="./css/notas.css"/>
 	<link rel="stylesheet" href="./css/anis.css"/>
+	<link rel="stylesheet" href="./css/effects.css"/>
 	<link rel="stylesheet" href="./css/juego.css"/>
 	<title>Guitar Hero HTML5</title>
 </head>
@@ -20,15 +21,23 @@
 			</div>
 			<div class="juego-guitar">
 				<div class="notas">
-					<div class="nota n-green animated"></div>
-					<div class="nota n-red animated"></div>
-					<div class="nota n-yellow animated"></div>
-					<div class="nota n-blue animated"></div>
-					<div class="nota n-orange animated"></div>
+					<div class="nota n-green"></div>
+					<div class="nota n-red"></div>
+					<div class="nota n-yellow"></div>
+					<div class="nota n-blue"></div>
+					<div class="nota n-orange"></div>
 				</div>
 				<div class="juego-mastil">
-					<div class="texture animated">
+					
+						<div id="fgreen" class="flare_efects fgreen hidden"></div>
+						<div id="fred" class="flare_efects fred hidden"></div>
+						<div id="fyellow" class="flare_efects fyellow hidden"></div>
+						<div id="fblue" class="flare_efects fblue hidden"></div>
+						<div id="forange" class="flare_efects forange hidden"></div>
+					
+					<div class="texture animateds">
 						<div class="liners-mastil"></div>
+						<div class="matil-edges"></div>
 						<div class="hit-buttom-space">
 							<div class="hitter hit-button-green"></div>
 							<div class="hitter hit-button-red"></div>
@@ -49,6 +58,8 @@
 	</footer>
 
 	<script src="js/config.js"></script>
+	<script src="js/effects.js"></script>
+	<script src="js/collider.js"></script>
 	<script src="js/keymaps.js"></script>
 </body>
 </html>
